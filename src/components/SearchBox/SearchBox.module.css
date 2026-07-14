@@ -1,0 +1,46 @@
+.title {
+  display: none;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  padding-bottom: 12px;
+  color: #2e2f42;
+}
+
+.label {
+  font-size: 16px;
+  color: #151717;
+  font-weight: 600;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+
+.input {
+  border: 1.5px solid #ecedec;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  outline: none;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    border: 1.5px solid #2e2f42;
+  }
+
+  &:focus-within {
+    border: 1.5px solid #2d79f3;
+  }
+
+  &::placeholder {
+    color: #bcbcbc;
+  }
+}
